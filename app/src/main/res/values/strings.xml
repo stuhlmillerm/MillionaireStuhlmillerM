@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MillionaireStuhlmillerM</string>
+    <string name="prefs_key">game_data</string>
+    <string name="ellipsis">…</string>
+    <string name="no_answer">Please choose an answer first!</string>
+    <string name="win_heading">Congratulations!!!</string>
+    <string name="win_content">You\'ve answered all the questions correctly.  Your winnings:</string>
+    <string name="win_tryagain">You can play again if you would like to win more!</string>
+    <string name="win_button">New Game</string>
+    <string name="lose_heading">Better luck next time!</string>
+    <string name="lose_content">Looks like you did not answer all the questions correctly.  Your winnings:</string>
+    <string name="lose_tryagain">You can give it another try if you like!</string>
+    <string name="lose_button">Try Again</string>
+    <string name="cur_prize">Current Prize</string>
+    <string name="answer_button">Final Answer</string>
+    <string name="answer_right">That is correct!  Updating your prize…</string>
+    <string name="answer_wrong">That is not the correct answer.</string>
+    <string name="game_questions">abcdefghijklmnopqrstuvwxyz0123456789</string>
+</resources>

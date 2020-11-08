@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Thank you to zoo.com quiz - https://www.zoo.com/quiz/can-you-answer-these-500-who-wants-to-be-a-millionaire-questions -->
+    <!-- Each array has: Question, Correct answer, Other answers.  36 questions to choose from coded a-z, 0-9 -->
+    <string-array name="qa">
+        <item>From 1964 to 1985, who asked you not to squeeze the Charmin?</item>
+        <item>Mr. Whipple</item>
+        <item>Mrs. Potts</item>
+        <item>Mr. Rogers</item>
+        <item>Mrs. Fields</item>
+    </string-array>
+    <string-array name="qb">
+        <item>Nadia Comaneci was the first gymnast to ever do what at the Olympics?</item>
+        <item>Get a perfect 10</item>
+        <item>Win an Olympic gold medal</item>
+        <item>Finish with a broken ankle</item>
+        <item>Forfeit her position</item>
+    </string-array>
+    <string-array name="qc">
+        <item>Which of these birds has the biggest brain relative to its size?</item>
+        <item>Hummingbird</item>
+        <item>Ostrich</item>
+        <item>Sparrow</item>
+        <item>Eagle</item>
+    </string-array>
+    <string-array name="qd">
+        <item>When playing Blackjack, how many points would be considered a bust?</item>
+        <item>22</item>
+        <item>21</item>
+        <item>15</item>
+        <item>19</item>
+    </string-array>
+    <string-array name="qe">
+        <item>Oysters can change something most other animals cannot. What is it?</item>
+        <item>Their gender</item>
+        <item>Their size</item>
+        <item>The thickness of their shell</item>
+        <item>Their color</item>
+    </string-array>
+    <string-array name="qf">
+        <item>The Statue of Liberty was originally supposed to function as what?</item>
+        <item>A lighthouse</item>
+        <item>A port of entry</item>
+        <item>A border marker</item>
+        <item>A gift shop</item>
+    </string-array>
+    <string-array name="qg">
+        <item>Which of these U.S. state names has the fewest syllables?</item>
+        <item>Maine</item>
+        <item>Iowa</item>
+        <item>Ohio</item>
+        <item>Texas</item>
+    </string-array>
+    <string-array name="qh">
+        <item>"Heart of Glass" was a single recorded by which \'70s band?</item>
+        <item>Blondie</item>
+        <item>The Ramones</item>
+        <item>The Bee Gees</item>
+        <item>Joy Division</item>
+    </string-array>
+    <string-array name="qi">
+        <item>Which one of these historical meanies died from a nosebleed?</item>
+        <item>Atilla the Hun</item>
+        <item>Napoleon</item>
+        <item>Adolph Hitler</item>
+        <item>Marie Antionette</item>
+    </string-array>
+    <string-array name="qj">
+        <item>Which of these rock groups released an album titled "The Joshua Tree"?</item>
+        <item>U2</item>
+        <item>Kings of Leon</item>
+        <item>Led Zeppelin</item>
+        <item>Arcade Fire</item>
+    </string-array>
+    <string-array name="qk">
+        <item>What was Will Ferrell\'s character\'s name in the 2003 hit movie "Elf"?</item>
+        <item>Buddy</item>
+        <item>Elf</item>
+        <item>Sam</item>
+        <item>Billy</item>
+    </string-array>
+    <string-array name="ql">
+        <item>Which of these lazy animals sleeps up to 22 hours a day?</item>
+        <item>Koala</item>
+        <item>Lion</item>
+        <item>Copperhead</item>
+        <item>Beagle</item>
+    </string-array>
+    <string-array name="qm">
+        <item>Where did Noah\'s Ark come to rest after the flood?</item>
+        <item>Mount Ararat</item>
+        <item>Mount Everest</item>
+        <item>K2</item>
+        <item>Mount Fuji</item>
+    </string-array>
+    <string-array name="qn">
+        <item>How many years are there in an eon?</item>
+        <item>1 billion years</item>
+        <item>35 years</item>
+        <item>25,000 years</item>
+        <item>1,000 years</item>
+    </string-array>
+    <string-array name="qo">
+        <item>Out of these European countries, which has the smallest population density?</item>
+        <item>Iceland</item>
+        <item>Bulgaria</item>
+        <item>Norway</item>
+        <item>France</item>
+    </string-array>
+    <string-array name="qp">
+        <item>Which U.S. newspaper is nicknamed "The Gray Lady"?</item>
+        <item>The New York Times</item>
+        <item>The Washington Post</item>
+        <item>The Daily Mail</item>
+        <item>USA Today</item>
+    </string-array>
+    <string-array name="qq">
+        <item>According to Albert Einstein, what is the "hardest thing in the world to understand"?</item>
+        <item>Income taxes</item>
+        <item>Astronomy</item>
+        <item>Physics</item>
+        <item>Sewing</item>
+    </string-array>
+    <string-array name="qr">
+        <item>What was the singer Pink named at birth?</item>
+        <item>Alecia Moore</item>
+        <item>Madonna Ciccone</item>
+        <item>Stefani Joanne Angelina Germanotta</item>
+        <item>Robyn Fenty</item>
+    </string-array>
+    <string-array name="qs">
+        <item>When you cut into an onion, which element causes it to smell?</item>
+        <item>Sulfur</item>
+        <item>Plutonium</item>
+        <item>Potassium</item>
+        <item>Hydrogen</item>
+    </string-array>
+    <string-array name="qt">
+        <item>Which part of your body has the more sweat glands than the others?</item>
+        <item>Feet</item>
+        <item>Head</item>
+        <item>Armpits</item>
+        <item>Back</item>
+    </string-array>
+    <string-array name="qu">
+        <item>Where did Lady Godiva\'s famous naked ride take place?</item>
+        <item>Coventry, U.K.</item>
+        <item>Berlin, Germany</item>
+        <item>Albany, New York</item>
+        <item>Milan, Italy</item>
+    </string-array>
+    <string-array name="qv">
+        <item>What is another name for your armpit?</item>
+        <item>Axilla</item>
+        <item>Clavical</item>
+        <item>Patella</item>
+        <item>Onus</item>
+    </string-array>
+    <string-array name="qw">
+        <item>Which of these daunting nicknames is given to the mountain K2?</item>
+        <item>Savage Mountain</item>
+        <item>Twin Peaks</item>
+        <item>Mount Impossible</item>
+        <item>Old Rocky</item>
+    </string-array>
+    <string-array name="qx">
+        <item>Which of these celebrities appeared on a Wheaties box most frequently?</item>
+        <item>Michael Jordan</item>
+        <item>Pete Rose</item>
+        <item>Bruce Jenner</item>
+        <item>Tiger Woods</item>
+    </string-array>
+    <string-array name="qy">
+        <item>What sort of a treat did the very first vending machine dispense?</item>
+        <item>Holy water</item>
+        <item>Sanitary napkins</item>
+        <item>Soda</item>
+        <item>Duck feed</item>
+    </string-array>
+    <string-array name="qz">
+        <item>What sort of flower is used to make saffron?</item>
+        <item>Crocus</item>
+        <item>Lotus</item>
+        <item>Dandelion</item>
+        <item>Jasmine</item>
+    </string-array>
+    <string-array name="q0">
+        <item>What is the modern-day name of the country once called Hibernia?</item>
+        <item>Ireland</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>Finland</item>
+    </string-array>
+    <string-array name="q1">
+        <item>Which one of the planets has the longest day?</item>
+        <item>Venus</item>
+        <item>Mars</item>
+        <item>Earth</item>
+        <item>Uranus</item>
+    </string-array>
+    <string-array name="q2">
+        <item>Which Disney Princess was coronated at Kensington Palace?</item>
+        <item>Rapunzel</item>
+        <item>Moana</item>
+        <item>Giselle</item>
+        <item>Belle</item>
+    </string-array>
+    <string-array name="q3">
+        <item>Where would you find the start of the Amazon River?</item>
+        <item>Peru</item>
+        <item>Bolivia</item>
+        <item>Brazil</item>
+        <item>Chile</item>
+    </string-array>
+    <string-array name="q4">
+        <item>Where is the birthplace of Walt Disney located?</item>
+        <item>Chicago, Illinois</item>
+        <item>Orlando, Florida</item>
+        <item>Topeka, Kansas</item>
+        <item>New York, New York</item>
+    </string-array>
+    <string-array name="q5">
+        <item>The Incas were the first to domesticate which of these animals?</item>
+        <item>Guinea pig</item>
+        <item>Cat</item>
+        <item>Goat</item>
+        <item>Chicken</item>
+    </string-array>
+    <string-array name="q6">
+        <item>This is the question for q6</item>
+        <item>Correct</item>
+        <item>Incorrect 1</item>
+        <item>Incorrect 2</item>
+        <item>Incorrect 3</item>
+    </string-array>
+    <string-array name="q7">
+        <item>Which of these computer brands holds the record as the top-selling?</item>
+        <item>Commodore</item>
+        <item>Dell</item>
+        <item>Apple</item>
+        <item>HP</item>
+    </string-array>
+    <string-array name="q8">
+        <item>According to Numbers 21:6, why were snakes sent to the Israelites?</item>
+        <item>They didn\'t like the food.</item>
+        <item>They needed reinforcement.</item>
+        <item>There were too many mice.</item>
+        <item>They were sent to get rid of sin.</item>
+    </string-array>
+    <string-array name="q9">
+        <item>He was played by James Marsden, but can you correctly name the prince from Disney\'s "Enchanted"?</item>
+        <item>Prince Edward</item>
+        <item>Prince Charming</item>
+        <item>Prince Charles</item>
+        <item>Prince Louie</item>
+    </string-array>
+</resources>
