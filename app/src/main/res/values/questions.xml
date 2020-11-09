@@ -184,13 +184,6 @@
         <item>Dandelion</item>
         <item>Jasmine</item>
     </string-array>
-    <string-array name="q0">
-        <item>What is the modern-day name of the country once called Hibernia?</item>
-        <item>Ireland</item>
-        <item>Germany</item>
-        <item>Italy</item>
-        <item>Finland</item>
-    </string-array>
     <string-array name="q1">
         <item>Which one of the planets has the longest day?</item>
         <item>Venus</item>
@@ -227,31 +220,31 @@
         <item>Chicken</item>
     </string-array>
     <string-array name="q6">
-        <item>This is the question for q6</item>
-        <item>Correct</item>
-        <item>Incorrect 1</item>
-        <item>Incorrect 2</item>
-        <item>Incorrect 3</item>
-    </string-array>
-    <string-array name="q7">
         <item>Which of these computer brands holds the record as the top-selling?</item>
         <item>Commodore</item>
         <item>Dell</item>
         <item>Apple</item>
         <item>HP</item>
     </string-array>
-    <string-array name="q8">
+    <string-array name="q7">
         <item>According to Numbers 21:6, why were snakes sent to the Israelites?</item>
         <item>They didn\'t like the food.</item>
         <item>They needed reinforcement.</item>
         <item>There were too many mice.</item>
         <item>They were sent to get rid of sin.</item>
     </string-array>
-    <string-array name="q9">
+    <string-array name="q8">
         <item>He was played by James Marsden, but can you correctly name the prince from Disney\'s "Enchanted"?</item>
         <item>Prince Edward</item>
         <item>Prince Charming</item>
         <item>Prince Charles</item>
         <item>Prince Louie</item>
+    </string-array>
+    <string-array name="q9">
+        <item>What is the modern-day name of the country once called Hibernia?</item>
+        <item>Ireland</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>Finland</item>
     </string-array>
 </resources>

@@ -15,5 +15,5 @@
     <string name="answer_button">Final Answer</string>
     <string name="answer_right">That is correct!  Updating your prize…</string>
     <string name="answer_wrong">That is not the correct answer.</string>
-    <string name="game_questions">abcdefghijklmnopqrstuvwxyz0123456789</string>
+    <string name="game_questions">abcdefghijklmnopqrstuvwxyz123456789</string>
 </resources>

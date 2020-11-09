@@ -88,7 +88,7 @@ public class MillionaireGame {
     }
 
     public String getAnswer(String item) {
-        return answers.get(item);
+        return item + ". " + answers.get(item);
     }
 
     public boolean checkAnswer(String choice) {

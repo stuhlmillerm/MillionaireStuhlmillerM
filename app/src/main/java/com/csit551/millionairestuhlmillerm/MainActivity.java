@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -52,22 +53,36 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     public void answerSelected (View view) {
         this.answerChosen = view.getId();
+        RadioButton radioView = (RadioButton) view;
 
+        // The layout of the buttons breaks the radio group so we need to programmatically check / uncheck
         RadioButton answerA = findViewById(R.id.answerA);
         RadioButton answerB = findViewById(R.id.answerB);
         RadioButton answerC = findViewById(R.id.answerC);
         RadioButton answerD = findViewById(R.id.answerD);
 
-        if (answerChosen != answerA.getId())
+        if (answerChosen != answerA.getId()) {
             answerA.setChecked(false);
-        if (answerChosen != answerB.getId())
+            answerA.setTypeface(Typeface.DEFAULT);
+        }
+        if (answerChosen != answerB.getId()) {
             answerB.setChecked(false);
-        if (answerChosen != answerC.getId())
+            answerB.setTypeface(Typeface.DEFAULT);
+        }
+        if (answerChosen != answerC.getId()) {
             answerC.setChecked(false);
-        if (answerChosen != answerD.getId())
+            answerC.setTypeface(Typeface.DEFAULT);
+        }
+        if (answerChosen != answerD.getId()) {
             answerD.setChecked(false);
+            answerD.setTypeface(Typeface.DEFAULT);
+        }
+
+        // Make the selected option bold.
+        radioView.setTypeface(Typeface.DEFAULT_BOLD);
 
     }
 

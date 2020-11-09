@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cur_prize"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAppearance="@style/headingText"
         app:layout_constraintBottom_toTopOf="@+id/curScore"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/ellipsis"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAppearance="@style/scoreText"
         app:layout_constraintBottom_toTopOf="@+id/scoreDivider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -32,7 +32,7 @@
         android:id="@+id/scoreDivider"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
+        android:background="@color/colorPrimaryDark"
         app:layout_constraintBottom_toTopOf="@+id/questionText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,11 +42,9 @@
         android:id="@+id/questionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
         android:gravity="center"
         android:text="@string/ellipsis"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textAppearance="@style/mediumText"
         app:layout_constraintBottom_toTopOf="@+id/questionDivider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +54,7 @@
         android:id="@+id/questionDivider"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="?android:attr/listDivider"
+        android:background="@color/colorPrimaryDark"
         app:layout_constraintBottom_toTopOf="@+id/answerGroup"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,20 +83,20 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/answerB"
+                    android:id="@+id/answerA"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/ellipsis"
                     android:onClick="answerSelected"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:text="@string/ellipsis"
+                    android:textAppearance="@style/mediumText" />
 
                 <RadioButton
-                    android:id="@+id/answerD"
+                    android:id="@+id/answerC"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/ellipsis"
                     android:onClick="answerSelected"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:textAppearance="@style/mediumText" />
             </LinearLayout>
 
             <LinearLayout
@@ -108,20 +106,20 @@
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/answerA"
+                    android:id="@+id/answerB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/ellipsis"
                     android:onClick="answerSelected"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:textAppearance="@style/mediumText" />
 
                 <RadioButton
-                    android:id="@+id/answerC"
+                    android:id="@+id/answerD"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/ellipsis"
                     android:onClick="answerSelected"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                    android:textAppearance="@style/mediumText" />
 
             </LinearLayout>
 
